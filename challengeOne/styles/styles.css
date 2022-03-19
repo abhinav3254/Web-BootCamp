@@ -1,18 +1,31 @@
 h1 {
     color: #46244C;
+    margin-top: 50px;
+    font-size: 90px;
+    /* 100% == 16px */
+}
+
+h2 {
     margin-top: 0;
+    font-size: 40px;
 }
 
 body {
-    background-color: #F7E2E2;
+    /* background-color: #F7E2E2; */
     margin: 0;
+    text-align: center;
 }
 
 #top-container {
+    background-color: #F7E2E2;
     margin-inline-start: 0%;
     margin-inline-start: 0%;
     margin-left: 0;
+    position: relative;
+    padding-top: 100px;
     /* background-color: blue; */
+
+    font-family: fantasy;
 }
 
 #middle-container {
@@ -29,4 +42,16 @@ body {
     height: 200px;
     width: 200px;
     border: solid;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
