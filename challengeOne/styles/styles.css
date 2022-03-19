@@ -14,3 +14,17 @@ body {
     margin-left: 0;
     background-color: blue;
 }
+
+#majak {
+    /* padding: 20%; */
+    background-color: #46244C;
+    height: 200px;
+    width: 200px;
+}
+
+#majak_1 {
+    /* padding: 20%; */
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+}
