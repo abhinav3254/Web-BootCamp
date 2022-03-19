@@ -8,23 +8,25 @@ body {
     margin: 0;
 }
 
-#top_div_1 {
+#top-container {
     margin-inline-start: 0%;
     margin-inline-start: 0%;
     margin-left: 0;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
-#majak {
+#middle-container {
     /* padding: 20%; */
     background-color: #46244C;
     height: 200px;
     width: 200px;
+    border: solid;
 }
 
-#majak_1 {
+#bottom-container {
     /* padding: 20%; */
     background-color: burlywood;
     height: 200px;
     width: 200px;
+    border: solid;
 }
